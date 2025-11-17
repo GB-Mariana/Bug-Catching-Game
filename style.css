@@ -1,20 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
     background-color: skyblue;
     color: yellow;
-    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100vh;
     overflow: hidden;
     margin: 0;
     text-align: center;
 }
 .btn {
-    border: 0;
-    background-color: plum;
-    color: black;
+    border: 10px solid rgb(255, 255, 128);
+    background-color: rgba(190, 190, 93, 0.716);
+    color: yellow;
     padding: 15px 20px;
     font-family: inherit;
     cursor: pointer;
@@ -46,9 +47,14 @@ a {
     color: aliceblue;
 }
 h1 {
+    background-color: rgba(190, 190, 93, 0.716);
+    border: 10px solid rgb(255, 255, 128);
     line-height: 1.4;
 }
-/*...*/
+h3 {
+    background-color: rgba(190, 190, 93, 0.716);
+    border: 5px solid rgb(255, 255, 128);
+}
 .insects-list {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +63,7 @@ h1 {
     padding: 0;
 }
 .insects-list li {
-    margin: 10px;
+    margin: 20px;
 }
 .choose-insect-btn {
     background-color: transparent;
@@ -70,7 +76,7 @@ h1 {
 }
 .choose-insect-btn:hover {
     background-color: white;
-    color: aquamarine;
+    color:skyblue;
 }
 .choose-insect-btn:active {
     background-color: rgba(255, 255, 255, 0.7);
